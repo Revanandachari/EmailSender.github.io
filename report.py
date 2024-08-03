@@ -65,7 +65,7 @@ def generate_report():
 def job():
     subject = "Report on Automatic Email"
     body =generate_report()
-    to_address = ['dhananjaya310@gmail.com','revanandh905@gmail.com','meenasri834@gmail.com']
+    to_address = ['dhananjaya310@gmail.com','revanandh905@gmail.com']
     file_path= r'C:\Users\REVANANDA CHARI\Desktop\sales_data.csv'
     custom_filename='DailyReport.csv'
     send_email(subject, body, to_address,file_path,custom_filename)
